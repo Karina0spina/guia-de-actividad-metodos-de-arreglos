@@ -222,3 +222,13 @@ const filaB = ["B1", "B2"];
 const todasLasFilas = filaA.concat(filaB);
 
 console.log("Ejercicio 13 - Todas las filas:", todasLasFilas);
+
+// ============================
+// Ejercicio 14: Formateo de String (Inmutable)
+// ============================
+
+const palabras = ["Hola", "mundo", "JavaScript"];
+
+const frase = palabras.join(" ");
+
+console.log("Ejercicio 14 - Frase:", frase);
