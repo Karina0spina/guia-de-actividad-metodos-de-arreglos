@@ -190,3 +190,13 @@ const cursos = ["Git", "React", "Node"];
 const existe = cursos.includes("JavaScript");
 
 console.log("Ejercicio 10 - ¿Existe JavaScript?:", existe);
+
+// ============================
+// Ejercicio 11: Validación Total (Declarativo)
+// ============================
+
+const edades = [20, 25, 19, 30];
+
+const todosMayores = edades.every(edad => edad >= 18);
+
+console.log("Ejercicio 11 - ¿Todos son mayores de edad?:", todosMayores);
