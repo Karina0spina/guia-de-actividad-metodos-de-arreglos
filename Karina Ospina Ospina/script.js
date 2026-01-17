@@ -91,3 +91,18 @@ const gestionarHerramientas = () => {
 };
 
 gestionarHerramientas();
+
+// ============================
+// Ejercicio 2: Modificación de Índice (Mutable)
+// ============================
+
+let colores = ["Rojo", "Verde", "Azul", "Amarillo"];
+
+// Insertar "Naranja" en la posición 1
+colores.splice(1, 0, "Naranja");
+
+// Reemplazar "Azul" por "Morado"
+const indexAzul = colores.indexOf("Azul");
+colores.splice(indexAzul, 1, "Morado");
+
+console.log("Ejercicio 2:", colores);
