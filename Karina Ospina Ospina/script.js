@@ -80,3 +80,14 @@ La transformación implica recorrer un arreglo y crear uno nuevo con los valores
 modificados a partir del original. Un ejemplo claro de transformación es el uso
 del método map(), el cual retorna un nuevo arreglo con los cambios aplicados.
 */
+
+let herramientas = ["Martillo", "Destornillador"];
+
+const gestionarHerramientas = () => {
+  herramientas.push("Taladro");
+  herramientas.unshift("Sierra");
+  herramientas.pop();
+  console.log("Ejercicio 1:", herramientas);
+};
+
+gestionarHerramientas();
