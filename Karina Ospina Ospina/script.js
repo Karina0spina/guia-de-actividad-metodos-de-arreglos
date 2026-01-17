@@ -149,3 +149,13 @@ let nombres = ["Zulma", "Andrés", "Bernardo", "Carlos"];
 nombres.sort((a, b) => a.localeCompare(b));
 
 console.log("Ejercicio 6 - Ordenado:", nombres);
+
+// ============================
+// Ejercicio 7: Inversión de Datos (Mutable)
+// ============================
+
+let orden = [1, 2, 3, 4, 5];
+
+orden.reverse();
+
+console.log("Ejercicio 7 - Invertido:", orden);
