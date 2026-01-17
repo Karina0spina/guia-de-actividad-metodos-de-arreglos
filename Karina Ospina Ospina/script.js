@@ -232,3 +232,14 @@ const palabras = ["Hola", "mundo", "JavaScript"];
 const frase = palabras.join(" ");
 
 console.log("Ejercicio 14 - Frase:", frase);
+
+// ============================
+// Ejercicio 15: Extracción de Rango (Inmutable)
+// ============================
+
+const base = ["Elemento0", "Elemento1", "Elemento2", "Elemento3"];
+
+const subArreglo = base.slice(1, 3);
+
+console.log("Ejercicio 15 - Subarreglo:", subArreglo);
+console.log("Ejercicio 15 - Original:", base);
