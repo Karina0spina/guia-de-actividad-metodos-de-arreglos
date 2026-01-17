@@ -139,3 +139,13 @@ const totalVentas = ventas.reduce((acumulador, valor) => acumulador + valor, 0);
 
 console.log("Ejercicio 5 - Total de ventas:", totalVentas);
 console.log("Ejercicio 5 - Original:", ventas);
+
+// ============================
+// Ejercicio 6: Ordenamiento Alfabético (Mutable)
+// ============================
+
+let nombres = ["Zulma", "Andrés", "Bernardo", "Carlos"];
+
+nombres.sort((a, b) => a.localeCompare(b));
+
+console.log("Ejercicio 6 - Ordenado:", nombres);
