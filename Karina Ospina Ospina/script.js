@@ -169,3 +169,13 @@ const invitados = ["Juan", "Maria", "Pedro", "Luisa"];
 const encontrado = invitados.find(nombre => nombre === "Pedro");
 
 console.log("Ejercicio 8 - Encontrado:", encontrado);
+
+// ============================
+// Ejercicio 9: Localización de Índice (Declarativo)
+// ============================
+
+const precios = [45, 12, 89, 34];
+
+const indice = precios.findIndex(precio => precio === 89);
+
+console.log("Ejercicio 9 - Índice encontrado:", indice);
