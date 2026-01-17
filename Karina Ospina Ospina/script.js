@@ -179,3 +179,14 @@ const precios = [45, 12, 89, 34];
 const indice = precios.findIndex(precio => precio === 89);
 
 console.log("Ejercicio 9 - Índice encontrado:", indice);
+
+
+// ============================
+// Ejercicio 10: Comprobación de Existencia (Inmutable)
+// ============================
+
+const cursos = ["Git", "React", "Node"];
+
+const existe = cursos.includes("JavaScript");
+
+console.log("Ejercicio 10 - ¿Existe JavaScript?:", existe);
