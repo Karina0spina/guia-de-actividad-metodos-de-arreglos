@@ -200,3 +200,14 @@ const edades = [20, 25, 19, 30];
 const todosMayores = edades.every(edad => edad >= 18);
 
 console.log("Ejercicio 11 - ¿Todos son mayores de edad?:", todosMayores);
+
+
+// ============================
+// Ejercicio 12: Validación Parcial (Declarativo)
+// ============================
+
+const puntajes = [5, 8, 12, 3];
+
+const existeMayor = puntajes.some(puntaje => puntaje > 10);
+
+console.log("Ejercicio 12 - ¿Existe un puntaje mayor a 10?:", existeMayor);
