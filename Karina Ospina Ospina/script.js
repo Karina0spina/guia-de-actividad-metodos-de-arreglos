@@ -211,3 +211,14 @@ const puntajes = [5, 8, 12, 3];
 const existeMayor = puntajes.some(puntaje => puntaje > 10);
 
 console.log("Ejercicio 12 - ¿Existe un puntaje mayor a 10?:", existeMayor);
+
+// ============================
+// Ejercicio 13: Concatenación (Inmutable)
+// ============================
+
+const filaA = ["A1", "A2"];
+const filaB = ["B1", "B2"];
+
+const todasLasFilas = filaA.concat(filaB);
+
+console.log("Ejercicio 13 - Todas las filas:", todasLasFilas);
