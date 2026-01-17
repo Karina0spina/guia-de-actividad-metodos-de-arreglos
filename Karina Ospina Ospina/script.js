@@ -117,3 +117,14 @@ const fahrenheit = temperaturas.map(temp => (temp * 9/5) + 32);
 
 console.log("Ejercicio 3 - Fahrenheit:", fahrenheit);
 console.log("Ejercicio 3 - Original:", temperaturas);
+
+// ============================
+// Ejercicio 4: Filtrado Selectivo (Inmutable)
+// ============================
+
+const inventario = [5, 12, 8, 130, 44];
+
+const grandesValores = inventario.filter(valor => valor > 10);
+
+console.log("Ejercicio 4 - Grandes valores:", grandesValores);
+console.log("Ejercicio 4 - Original:", inventario);
